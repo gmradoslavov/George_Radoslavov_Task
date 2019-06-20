@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    height: 100vh;
+    position:relative;
+    align-content: center;
+} 
+
+h1 {
+    position: absolute;
+    color: rgb(255, 254, 0);
+    margin-top: 21rem;
+}
+
+h2 {
+    color: rgb(255, 254, 0);
+    /* padding: auto; */
+    /* margin: auto; */
+}
+
+#flame {
+    justify-content: center;
+    position:absolute;
+    margin-top: 24vh;
+}
+
+#rectangular {
+    background-color: red;
+    width: 25%;
+    height: 12rem;
+    position: absolute;
+    top: 35vh;
+    border: 5px solid;
+    border-color: rgb(222, 54, 9);
+    border-radius: 5px;
+    box-shadow: 5%;
+}
+
+#pays1 {
+    display: flex;
+    margin-top: 20vh;
+    width: 45%;
+    height: 1.5rem;
+    background-color: rgb(222, 54, 9);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    justify-content: center;
+    color: rgb(255, 254, 0);
+    border:0.1rem solid rgb(225, 90, 34);
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+ span {
+     margin: 1rem;
+     color: rgb(255, 254, 0);
+ }
+
+#decor {
+    position:absolute;
+    overflow-x: hidden;
+    top: 28%;   
+}
+
+#prog{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 0;
+    justify-content: center;
+    position:absolute;
+    top: 60%;
+}
+
+#prog-img {
+    float: left;
+    margin-left: 0;
+    background-color: rgb(34, 35, 19);
+}
+
+#prog-img img {
+    width: 12rem;
+}
+
+#prog-money {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    margin-left: 0; 
+    background-color: rgb(54, 49,19);
+    width:12rem;
+}
+
+#ceiling{
+    display: flex;
+    background-color: rgb(34, 35, 19);
+    margin-top: 16vh;
+    margin-left: 0;
+    justify-content: center;
+    position:absolute;
+    overflow-x: hidden;
+    top: 60%;
+}
+
+#ceiling-img {
+    float: left;
+    margin-left: 0;
+}
+
+#ceiling-img img {
+    width: 12rem;
+}
+
+#ceiling-money {
+    margin: auto; 
+    background-color: rgb(54, 49,19);
+    width:12rem;
+}
+
+#ceiling-money h2 {
+    margin-left: 2rem;
+}
+
+#pays2 {
+    display: flex;
+    width: 90%;
+    height: 1.2rem;
+    background-color: rgb(34, 35, 19);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:1rem 1rem 1rem 0;
+    color: rgb(255, 254, 0);
+}
+
+
